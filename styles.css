@@ -52,3 +52,32 @@ body {
     border-radius: 7px;
 }
 
+.infomation {
+    
+}
+
+.info-title {
+    margin: 40px auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    width: 150px;
+}
+.card-img img {
+    width: 150px;
+}
+
+.card-text {
+    text-align: center;
+}
+
