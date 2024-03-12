@@ -97,3 +97,25 @@ body {
     text-align: end;
     font-weight: bold;
 }
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 150px;
+    padding: 30px 80px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.cta-title {
+    font-weight: bold;
+    font-size: large;
+}
+.cta-left button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 5px 30px;
+    border: 2px solid #F9FAF8;
+    border-radius: 7px;
+}
