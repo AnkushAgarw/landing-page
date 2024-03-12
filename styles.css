@@ -89,6 +89,7 @@ body {
 
 .quote {
     font-size: 36px;
+    text-align: justify;
     max-width: 750px;
 }
 
