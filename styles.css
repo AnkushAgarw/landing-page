@@ -52,10 +52,6 @@ body {
     border-radius: 7px;
 }
 
-.infomation {
-    
-}
-
 .info-title {
     margin: 40px auto;
     text-align: center;
@@ -68,6 +64,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 40px;
+    margin-bottom: 90px;
 }
 
 .card {
@@ -75,9 +72,28 @@ body {
 }
 .card-img img {
     width: 150px;
+    border-radius: 10px;
 }
 
 .card-text {
     text-align: center;
 }
 
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 0px;
+}
+
+.quote {
+    font-size: 36px;
+    max-width: 750px;
+}
+
+.name {
+    width: 750px;
+    text-align: end;
+    font-weight: bold;
+}
